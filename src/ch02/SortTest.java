@@ -18,4 +18,16 @@ public class SortTest {
             System.out.print(temp+" ");
         }
     }
+
+    /**
+     * 选择排序
+     */
+    @Test
+    public void testSelectionSort() {
+        long []arr=new long[]{11,9,12,-1,7,3,14,22,21,8};
+       SelectionSort.sort(arr);
+        for(long temp :arr){
+            System.out.print(temp+" ");
+        }
+    }
 }
